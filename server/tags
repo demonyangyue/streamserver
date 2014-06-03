@@ -1,0 +1,217 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+CoreServer	coreServer.py	/^class CoreServer(object):$/;"	c
+FileSendLoop	sendLoop.py	/^class FileSendLoop(SendLoop):$/;"	c
+FileServer	fileStreamServer.py	/^class FileServer(object):$/;"	c
+FileSource	source.py	/^class FileSource(Source):$/;"	c
+IObserver	rtpClient.py	/^class IObserver(Interface):$/;"	c
+ISubject	source.py	/^class ISubject(Interface):$/;"	c
+InterLeavedPacker	rtpPacker.py	/^class InterLeavedPacker(object):$/;"	c
+LiveProtocol	liveStreamServer.py	/^class LiveProtocol(basic.LineReceiver):$/;"	c
+LiveSendLoop	sendLoop.py	/^class LiveSendLoop(SendLoop):$/;"	c
+LiveServer	liveStreamServer.py	/^class LiveServer(protocol.ServerFactory):$/;"	c
+LiveSource	source.py	/^class LiveSource(Source):$/;"	c
+NaluParser	parser.py	/^class NaluParser(object):$/;"	c
+NoSDPState	sourceState.py	/^class NoSDPState(object):$/;"	c
+PausePackThres	source.py	/^    PausePackThres = 5000$/;"	v	class:LiveSource
+RTPClient	rtpClient.py	/^class RTPClient(object):$/;"	c
+RTPClientDatagramProtocol	rtpClient.py	/^class RTPClientDatagramProtocol(DatagramProtocol):$/;"	c
+RTPPackHelper	rtpPacker.py	/^class RTPPackHelper(object):$/;"	c
+RTPPacker	rtpPacker.py	/^class RTPPacker(object):$/;"	c
+RTSPInitState	rtspServer.py	/^class RTSPInitState(RTSPState):$/;"	c
+RTSPPlayingState	rtspServer.py	/^class RTSPPlayingState(RTSPState):$/;"	c
+RTSPReadyState	rtspServer.py	/^class RTSPReadyState(RTSPState):$/;"	c
+RTSPRequestHandler	rtspHandler.py	/^class RTSPRequestHandler(object):$/;"	c
+RTSPServer	rtspServer.py	/^class RTSPServer(protocol.ServerFactory):$/;"	c
+RTSPServerProtocol	rtspServer.py	/^class RTSPServerProtocol(basic.LineReceiver):$/;"	c
+RTSPState	rtspServer.py	/^class RTSPState(object):$/;"	c
+ResumePackThres	source.py	/^    ResumePackThres = 20$/;"	v	class:LiveSource
+SDPState	sourceState.py	/^class SDPState(object):$/;"	c
+SOURCEPATH	source.py	/^SOURCEPATH = r'\/home\/yy\/programme\/python\/streamserver\/media\/'$/;"	v
+SendLoop	sendLoop.py	/^class SendLoop(object):$/;"	c
+ServerPortPool	rtspHandler.py	/^ServerPortPool = [(x, x+1) for x in range(6000, 7000, 2)]$/;"	v
+SingleFramePacker	rtpPacker.py	/^class SingleFramePacker(RTPPacker):$/;"	c
+SlicedFramePacker	rtpPacker.py	/^class SlicedFramePacker(RTPPacker):$/;"	c
+Source	source.py	/^class Source(object):$/;"	c
+StartSendThres	sendLoop.py	/^    StartSendThres = 20$/;"	v	class:LiveSendLoop
+TCPSender	rtpClient.py	/^class TCPSender(object):$/;"	c
+UDPSender	rtpClient.py	/^class UDPSender(object):$/;"	c
+__init__	coreServer.py	/^    def __init__(self, liveServer, fileServer):$/;"	m	class:CoreServer
+__init__	fileStreamServer.py	/^    def __init__(self):$/;"	m	class:FileServer
+__init__	liveStreamServer.py	/^    def __init__(self):$/;"	m	class:LiveProtocol
+__init__	liveStreamServer.py	/^    def __init__(self):$/;"	m	class:LiveServer
+__init__	rtpClient.py	/^    def __init__(self, cliAddr, cliPort):$/;"	m	class:RTPClientDatagramProtocol
+__init__	rtpClient.py	/^    def __init__(self, serverPort, cliAddr, cliPort):$/;"	m	class:UDPSender
+__init__	rtpClient.py	/^    def __init__(self, source, sender):$/;"	m	class:RTPClient
+__init__	rtpClient.py	/^    def __init__(self, transport):$/;"	m	class:TCPSender
+__init__	rtpPacker.py	/^    def __init__(self):$/;"	m	class:InterLeavedPacker
+__init__	rtpPacker.py	/^    def __init__(self, fps = 10):$/;"	m	class:RTPPackHelper
+__init__	rtpPacker.py	/^    def __init__(self, helper, mtu):$/;"	m	class:RTPPacker
+__init__	rtspHandler.py	/^    def __init__(self):$/;"	m	class:RTSPRequestHandler
+__init__	rtspServer.py	/^    def __init__(self):$/;"	m	class:RTSPServerProtocol
+__init__	rtspServer.py	/^    def __init__(self, coreServer = ''):$/;"	m	class:RTSPServer
+__init__	sendLoop.py	/^    def __init__(self):$/;"	m	class:SendLoop
+__init__	sendLoop.py	/^    def __init__(self, fileSource):$/;"	m	class:FileSendLoop
+__init__	sendLoop.py	/^    def __init__(self, frameBuffer):$/;"	m	class:LiveSendLoop
+__init__	source.py	/^    def __init__(self, name):$/;"	m	class:Source
+__init__	source.py	/^    def __init__(self, proto = '' , name = ''):$/;"	m	class:LiveSource
+__init__	source.py	/^    def __init__(self, server = '', name = ''):$/;"	m	class:FileSource
+__init__	sourceState.py	/^    def __init__(self):$/;"	m	class:NoSDPState
+_fillDataBuffer	source.py	/^    def _fillDataBuffer(self):$/;"	m	class:FileSource
+_getSourceName	rtspHandler.py	/^        def _getSourceName(line):$/;"	f	function:RTSPRequestHandler.handleDESCRIBE
+_getUrl	rtspHandler.py	/^        def _getUrl(line):$/;"	f	function:RTSPRequestHandler.handleDESCRIBE
+_parseTransline	rtspHandler.py	/^        def _parseTransline(transLine):$/;"	f	function:RTSPRequestHandler.handleSETUP
+_sendReply	rtspServer.py	/^        def _sendReply(_):$/;"	f	function:RTSPServerProtocol.sendReply
+_setSource	rtspHandler.py	/^    def _setSource(self, source):$/;"	m	class:RTSPRequestHandler
+addClient	rtspServer.py	/^    def addClient(self, cli):$/;"	m	class:RTSPServer
+addSource	fileStreamServer.py	/^    def addSource(self, source):$/;"	m	class:FileServer
+addSource	liveStreamServer.py	/^    def addSource(self, source):$/;"	m	class:LiveServer
+buildProtocol	liveStreamServer.py	/^    def buildProtocol(self, addr):$/;"	m	class:LiveServer
+changeState	rtspServer.py	/^    def changeState(self, proto, state):$/;"	m	class:RTSPState
+clean	rtpClient.py	/^    def clean(self):$/;"	m	class:TCPSender
+clean	rtpClient.py	/^    def clean(self):$/;"	m	class:UDPSender
+cleanRTPClient	rtpClient.py	/^    def cleanRTPClient(self):$/;"	m	class:RTPClient
+cleanRTPClient	rtspHandler.py	/^    def cleanRTPClient(self):$/;"	m	class:RTSPRequestHandler
+cleanupClients	sendLoop.py	/^    def cleanupClients(self):$/;"	m	class:LiveSendLoop
+cleanupClients	source.py	/^    def cleanupClients(self):$/;"	m	class:LiveSource
+connectionLost	liveStreamServer.py	/^    def connectionLost(self, reason):$/;"	m	class:LiveProtocol
+connectionLost	liveStreamServer.py	/^    def connectionLost(self, reason):$/;"	m	class:LiveServer
+connectionLost	rtspServer.py	/^    def connectionLost(self, reason):$/;"	m	class:RTSPServerProtocol
+connectionMade	liveStreamServer.py	/^    def connectionMade(self):$/;"	m	class:LiveProtocol
+connectionMade	rtspServer.py	/^    def connectionMade(self):$/;"	m	class:RTSPServerProtocol
+connectionRefused	rtpClient.py	/^    def connectionRefused(self):$/;"	m	class:RTPClientDatagramProtocol
+coreServer	coreServer.py	/^    coreServer = CoreServer(liveServer, fileServer )$/;"	v	class:CoreServer
+datagramReceived	rtpClient.py	/^    def datagramReceived(self, datagram, host):$/;"	m	class:RTPClientDatagramProtocol
+delimiter	liveStreamServer.py	/^    delimiter = '\\x00\\x00\\x00\\x01'$/;"	v	class:LiveProtocol
+extractNalu	source.py	/^    def extractNalu(self):$/;"	m	class:FileSource
+fileServer	coreServer.py	/^    fileServer = FileServer()$/;"	v	class:CoreServer
+findSource	coreServer.py	/^    def findSource(self, name):$/;"	m	class:CoreServer
+findSource	fileStreamServer.py	/^    def findSource(self, sourceName):$/;"	m	class:FileServer
+findSource	liveStreamServer.py	/^    def findSource(self, name):$/;"	m	class:LiveServer
+findSource	rtspHandler.py	/^    def findSource(self, proto, name):$/;"	m	class:RTSPRequestHandler
+findSource	rtspServer.py	/^    def findSource(self, name):$/;"	m	class:RTSPServer
+genFuHead	rtpPacker.py	/^    def genFuHead(self, naluHead, flag):$/;"	m	class:SlicedFramePacker
+genFuIndicator	rtpPacker.py	/^    def genFuIndicator(self, naluHead):$/;"	m	class:SlicedFramePacker
+genPayloadType	rtpPacker.py	/^    def genPayloadType(self, marked):$/;"	m	class:RTPPackHelper
+genProfileLevelId	parser.py	/^    def genProfileLevelId(self, data):$/;"	m	class:NaluParser
+genRTPHead	rtpPacker.py	/^    def genRTPHead(self, marked):$/;"	m	class:RTPPackHelper
+genSDP	source.py	/^    def genSDP(self):$/;"	m	class:FileSource
+generateSDP	parser.py	/^    def generateSDP(self, sps, pps):$/;"	m	class:NaluParser
+getClientNum	liveStreamServer.py	/^    def getClientNum(self):$/;"	m	class:LiveServer
+getClients	sendLoop.py	/^    def getClients(self):$/;"	m	class:SendLoop
+getClients	source.py	/^    def getClients(self):$/;"	m	class:Source
+getFps	source.py	/^    def getFps(self):$/;"	m	class:FileSource
+getFps	source.py	/^    def getFps(self):$/;"	m	class:LiveSource
+getFps	source.py	/^    def getFps(self):$/;"	m	class:Source
+getHandler	rtspServer.py	/^    def getHandler(self):$/;"	m	class:RTSPServerProtocol
+getName	source.py	/^    def getName(self):$/;"	m	class:Source
+getPayloadType	rtpPacker.py	/^    def getPayloadType(self):$/;"	m	class:RTPPackHelper
+getSDP	source.py	/^    def getSDP(self):$/;"	m	class:FileSource
+getSDP	source.py	/^    def getSDP(self):$/;"	m	class:LiveSource
+getSSRC	rtpPacker.py	/^    def getSSRC(self):$/;"	m	class:RTPPackHelper
+getSSRC	source.py	/^    def getSSRC(self):$/;"	m	class:Source
+getSeqNum	rtpPacker.py	/^    def getSeqNum(self):$/;"	m	class:RTPPackHelper
+getSource	liveStreamServer.py	/^    def getSource(self):$/;"	m	class:LiveProtocol
+getStartSendThres	source.py	/^    def getStartSendThres(self):$/;"	m	class:LiveSource
+getState	source.py	/^    def getState(self):$/;"	m	class:FileSource
+getState	source.py	/^    def getState(self):$/;"	m	class:Source
+getTimeStamp	rtpPacker.py	/^    def getTimeStamp(self):$/;"	m	class:RTPPackHelper
+handleDESCRIBE	rtspHandler.py	/^    def handleDESCRIBE(self, proto, lines):$/;"	m	class:RTSPRequestHandler
+handleDESCRIBE	rtspServer.py	/^    def handleDESCRIBE(self, handler, proto, lines):$/;"	m	class:RTSPState
+handleOPTIONS	rtspHandler.py	/^    def handleOPTIONS(self, proto, lines):$/;"	m	class:RTSPRequestHandler
+handleOPTIONS	rtspServer.py	/^    def handleOPTIONS(self, handler, proto, lines):$/;"	m	class:RTSPState
+handlePLAY	rtspHandler.py	/^    def handlePLAY(self, proto, lines):$/;"	m	class:RTSPRequestHandler
+handlePLAY	rtspServer.py	/^    def handlePLAY(self, handler, proto, lines):$/;"	m	class:RTSPPlayingState
+handlePLAY	rtspServer.py	/^    def handlePLAY(self, handler, proto, lines):$/;"	m	class:RTSPReadyState
+handlePLAY	rtspServer.py	/^    def handlePLAY(self, handler, proto, lines):$/;"	m	class:RTSPState
+handleSETUP	rtspHandler.py	/^    def handleSETUP(self, proto, lines):$/;"	m	class:RTSPRequestHandler
+handleSETUP	rtspServer.py	/^    def handleSETUP(self, handler, proto, lines):$/;"	m	class:RTSPInitState
+handleSETUP	rtspServer.py	/^    def handleSETUP(self, handler, proto, lines):$/;"	m	class:RTSPPlayingState
+handleSETUP	rtspServer.py	/^    def handleSETUP(self, handler, proto, lines):$/;"	m	class:RTSPReadyState
+handleSETUP	rtspServer.py	/^    def handleSETUP(self, handler, proto, lines):$/;"	m	class:RTSPState
+handleTEARDOWN	rtspHandler.py	/^    def handleTEARDOWN(self, proto, lines):$/;"	m	class:RTSPRequestHandler
+handleTEARDOWN	rtspServer.py	/^    def handleTEARDOWN(self, handler, proto, lines):$/;"	m	class:RTSPInitState
+handleTEARDOWN	rtspServer.py	/^    def handleTEARDOWN(self, handler, proto, lines):$/;"	m	class:RTSPPlayingState
+handleTEARDOWN	rtspServer.py	/^    def handleTEARDOWN(self, handler, proto, lines):$/;"	m	class:RTSPReadyState
+handleTEARDOWN	rtspServer.py	/^    def handleTEARDOWN(self, handler, proto, lines):$/;"	m	class:RTSPState
+increaseSeqNum	rtpPacker.py	/^    def increaseSeqNum(self):$/;"	m	class:RTPPackHelper
+increaseTimeStamp	rtpPacker.py	/^    def increaseTimeStamp(self):$/;"	m	class:RTPPackHelper
+initialFileServer	coreServer.py	/^    def initialFileServer(self):$/;"	m	class:CoreServer
+initialLiveServer	coreServer.py	/^    def initialLiveServer(self):$/;"	m	class:CoreServer
+initialRTSPServer	coreServer.py	/^    def initialRTSPServer(self, server):$/;"	m	class:CoreServer
+isPaused	sendLoop.py	/^    def isPaused(self):$/;"	m	class:LiveSendLoop
+isPaused	source.py	/^    def isPaused(self):$/;"	m	class:LiveSource
+lineReceived	liveStreamServer.py	/^    def lineReceived(self, line):$/;"	m	class:LiveProtocol
+lineReceived	rtspServer.py	/^    def lineReceived(self, line):$/;"	m	class:RTSPServerProtocol
+liveServer	coreServer.py	/^    liveServer = LiveServer()$/;"	v	class:CoreServer
+notifyObservers	sendLoop.py	/^    def notifyObservers(self, frame):$/;"	m	class:SendLoop
+notifyObservers	source.py	/^    def notifyObservers():$/;"	m	class:ISubject
+notifyObservers	source.py	/^    def notifyObservers(self, frame):$/;"	m	class:Source
+openFile	source.py	/^    def openFile(self):$/;"	m	class:FileSource
+packFrame	rtpPacker.py	/^    def packFrame(self, frame):$/;"	m	class:InterLeavedPacker
+packFrames	source.py	/^    def packFrames(self, line):$/;"	m	class:FileSource
+packFrames	source.py	/^    def packFrames(self, line):$/;"	m	class:LiveSource
+packNalu	rtpPacker.py	/^    def packNalu(self, nalu):$/;"	m	class:RTPPacker
+packNalu	rtpPacker.py	/^    def packNalu(self, nalu):$/;"	m	class:SingleFramePacker
+packNalu	rtpPacker.py	/^    def packNalu(self, nalu):$/;"	m	class:SlicedFramePacker
+parseCSeq	rtspHandler.py	/^    def parseCSeq(self, line):$/;"	m	class:RTSPRequestHandler
+parseMethodName	rtspServer.py	/^    def parseMethodName(self, line):$/;"	m	class:RTSPState
+parseNalu	source.py	/^    def parseNalu(self, line):$/;"	m	class:LiveSource
+parseNalu	sourceState.py	/^    def parseNalu(self, source, line):$/;"	m	class:NoSDPState
+parseNalu	sourceState.py	/^    def parseNalu(self, source, line):$/;"	m	class:SDPState
+parseRequest	rtspServer.py	/^    def parseRequest(self, proto, lines) :$/;"	m	class:RTSPState
+pauseProducing	sendLoop.py	/^    def pauseProducing(self, proto):$/;"	m	class:LiveSendLoop
+pauseProducing	source.py	/^    def pauseProducing(self):$/;"	m	class:LiveSource
+protocol	liveStreamServer.py	/^    protocol = LiveProtocol$/;"	v	class:LiveServer
+protocol	rtspServer.py	/^    protocol = RTSPServerProtocol$/;"	v	class:RTSPServer
+registerObserver	sendLoop.py	/^    def registerObserver(self, observer):$/;"	m	class:FileSendLoop
+registerObserver	sendLoop.py	/^    def registerObserver(self, observer):$/;"	m	class:SendLoop
+registerObserver	source.py	/^    def registerObserver(observer):$/;"	m	class:ISubject
+registerObserver	source.py	/^    def registerObserver(self, observer):$/;"	m	class:Source
+removeClient	rtspServer.py	/^    def removeClient(self, cli):$/;"	m	class:RTSPServer
+removeObserver	sendLoop.py	/^    def removeObserver(self, observer):$/;"	m	class:FileSendLoop
+removeObserver	sendLoop.py	/^    def removeObserver(self, observer):$/;"	m	class:SendLoop
+removeObserver	source.py	/^    def removeObserver(observer):$/;"	m	class:ISubject
+removeObserver	source.py	/^    def removeObserver(self, observer):$/;"	m	class:FileSource
+removeObserver	source.py	/^    def removeObserver(self, observer):$/;"	m	class:Source
+removeSource	fileStreamServer.py	/^    def removeSource(self, source):$/;"	m	class:FileServer
+removeSource	liveStreamServer.py	/^    def removeSource(self, source):$/;"	m	class:LiveServer
+replyFailHead	rtspHandler.py	/^    def replyFailHead(self, seqLine):$/;"	m	class:RTSPRequestHandler
+replyNotFound	rtspHandler.py	/^    replyNotFound = "RTSP\/1.0 404 Not Found"$/;"	v	class:RTSPRequestHandler
+replyOK	rtspHandler.py	/^    replyOK = "RTSP\/1.0 200 OK"$/;"	v	class:RTSPRequestHandler
+replySuccessHead	rtspHandler.py	/^    def replySuccessHead(self, seqLine):$/;"	m	class:RTSPRequestHandler
+resumeProducing	sendLoop.py	/^    def resumeProducing(self):$/;"	m	class:LiveSendLoop
+resumeProducing	source.py	/^    def resumeProducing(self):$/;"	m	class:LiveSource
+rtspServer	coreServer.py	/^    rtspServer = RTSPServer(coreServer)$/;"	v	class:CoreServer
+send	rtpClient.py	/^    def send(self, frame):$/;"	m	class:TCPSender
+send	rtpClient.py	/^    def send(self, frame):$/;"	m	class:UDPSender
+sendLoop	sendLoop.py	/^    def sendLoop(self):$/;"	m	class:FileSendLoop
+sendLoop	sendLoop.py	/^    def sendLoop(self):$/;"	m	class:LiveSendLoop
+sendReply	rtspServer.py	/^    def sendReply(self, lines):$/;"	m	class:RTSPServerProtocol
+setSDP	source.py	/^    def setSDP(self, sdp):$/;"	m	class:FileSource
+setSDP	source.py	/^    def setSDP(self, sdp):$/;"	m	class:LiveSource
+setSeqNum	rtpPacker.py	/^    def setSeqNum(self, num):$/;"	m	class:RTPPackHelper
+setState	rtspServer.py	/^    def setState(self, state):$/;"	m	class:RTSPServerProtocol
+setState	source.py	/^    def setState(self, state):$/;"	m	class:FileSource
+setState	source.py	/^    def setState(self, state):$/;"	m	class:Source
+setTimeStamp	rtpPacker.py	/^    def setTimeStamp(self, num):$/;"	m	class:RTPPackHelper
+startProtocol	rtpClient.py	/^    def startProtocol(self):$/;"	m	class:RTPClientDatagramProtocol
+startSendLoop	sendLoop.py	/^    def startSendLoop(self, fps):$/;"	m	class:SendLoop
+startSendLoop	source.py	/^    def startSendLoop(self):$/;"	m	class:Source
+stopProducing	sendLoop.py	/^    def stopProducing(self, proto):$/;"	m	class:LiveSendLoop
+stopProducing	source.py	/^    def stopProducing(self):$/;"	m	class:LiveSource
+stopProtocol	rtpClient.py	/^    def stopProtocol(self):$/;"	m	class:RTPClientDatagramProtocol
+stopSendLoop	sendLoop.py	/^    def stopSendLoop(self):$/;"	m	class:SendLoop
+stopSendLoop	source.py	/^    def stopSendLoop(self):$/;"	m	class:Source
+test	liveStreamServer.py	/^def test():$/;"	f
+test	rtspServer.py	/^def test():$/;"	f
+transAscii	parser.py	/^    def transAscii(self, letter):$/;"	m	class:NaluParser
+transSSRC	rtpPacker.py	/^    def transSSRC(self):$/;"	m	class:RTPPackHelper
+transSeqNum	rtpPacker.py	/^    def transSeqNum(self):$/;"	m	class:RTPPackHelper
+transTimeStamp	rtpPacker.py	/^    def transTimeStamp(self):$/;"	m	class:RTPPackHelper
+update	rtpClient.py	/^    def update(frame):$/;"	m	class:IObserver
+update	rtpClient.py	/^    def update(self, frame):$/;"	m	class:RTPClient

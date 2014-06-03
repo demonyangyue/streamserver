@@ -1,0 +1,13 @@
+2014-06-03 19:50:44+0800 [-] Log opened.
+2014-06-03 19:51:09+0800 [RTSPServerProtocol,0,127.0.0.1] find the file source stream.264 for the rtsp client
+2014-06-03 19:51:09+0800 [RTSPServerProtocol,0,127.0.0.1] rtpClient.RTPClientDatagramProtocol starting on 6998
+2014-06-03 19:51:09+0800 [RTSPServerProtocol,0,127.0.0.1] Starting protocol <rtpClient.RTPClientDatagramProtocol instance at 0x972224c>
+2014-06-03 19:51:13+0800 [RTSPServerProtocol,0,127.0.0.1] rtsp connection closed because TEARDOWN request 
+2014-06-03 19:51:13+0800 [-] (Port 6998 Closed)
+2014-06-03 19:51:13+0800 [-] Stopping protocol <rtpClient.RTPClientDatagramProtocol instance at 0x972224c>
+2014-06-03 19:51:17+0800 [-] Received SIGINT, shutting down.
+2014-06-03 19:51:17+0800 [rtspServer.RTSPServer] (Port 1556 Closed)
+2014-06-03 19:51:17+0800 [rtspServer.RTSPServer] Stopping factory <rtspServer.RTSPServer instance at 0x9720e0c>
+2014-06-03 19:51:17+0800 [liveStreamServer.LiveServer] (Port 1557 Closed)
+2014-06-03 19:51:17+0800 [liveStreamServer.LiveServer] Stopping factory <liveStreamServer.LiveServer instance at 0x9713cac>
+2014-06-03 19:51:17+0800 [-] Main loop terminated.

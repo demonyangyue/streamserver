@@ -1,0 +1,94 @@
+\hypertarget{classpython_1_1streamserver_1_1server_1_1rtspHandler_1_1RTSPRequestHandler}{
+\section{python::streamserver::server::rtspHandler::RTSPRequestHandler Class Reference}
+\label{classpython_1_1streamserver_1_1server_1_1rtspHandler_1_1RTSPRequestHandler}\index{python::streamserver::server::rtspHandler::RTSPRequestHandler@{python::streamserver::server::rtspHandler::RTSPRequestHandler}}
+}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classpython_1_1streamserver_1_1server_1_1rtspHandler_1_1RTSPRequestHandler_a32a8f95264daf589e178bdf421d681e9}{
+def {\bfseries \_\-\_\-init\_\-\_\-}}
+\label{classpython_1_1streamserver_1_1server_1_1rtspHandler_1_1RTSPRequestHandler_a32a8f95264daf589e178bdf421d681e9}
+
+\item 
+\hypertarget{classpython_1_1streamserver_1_1server_1_1rtspHandler_1_1RTSPRequestHandler_aaa78bcfabbe0df852f1f6ad0003de2c6}{
+def {\bfseries parseCSeq}}
+\label{classpython_1_1streamserver_1_1server_1_1rtspHandler_1_1RTSPRequestHandler_aaa78bcfabbe0df852f1f6ad0003de2c6}
+
+\item 
+\hypertarget{classpython_1_1streamserver_1_1server_1_1rtspHandler_1_1RTSPRequestHandler_adc3c9ce4aea84c327ac493cb8a0ee2b0}{
+def {\bfseries handleOPTIONS}}
+\label{classpython_1_1streamserver_1_1server_1_1rtspHandler_1_1RTSPRequestHandler_adc3c9ce4aea84c327ac493cb8a0ee2b0}
+
+\item 
+\hypertarget{classpython_1_1streamserver_1_1server_1_1rtspHandler_1_1RTSPRequestHandler_a5eb6ba4ed5ec8c8c80d192ae0808c1b6}{
+def {\bfseries handleDESCRIBE}}
+\label{classpython_1_1streamserver_1_1server_1_1rtspHandler_1_1RTSPRequestHandler_a5eb6ba4ed5ec8c8c80d192ae0808c1b6}
+
+\item 
+\hypertarget{classpython_1_1streamserver_1_1server_1_1rtspHandler_1_1RTSPRequestHandler_a487523a7e2efa0b81f9415ddf0dba843}{
+def {\bfseries findSource}}
+\label{classpython_1_1streamserver_1_1server_1_1rtspHandler_1_1RTSPRequestHandler_a487523a7e2efa0b81f9415ddf0dba843}
+
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classpython_1_1streamserver_1_1server_1_1rtspHandler_1_1RTSPRequestHandler_aebbdf12429f04728ce841d8f7fa462d3}{
+{\bfseries sessionNum}}
+\label{classpython_1_1streamserver_1_1server_1_1rtspHandler_1_1RTSPRequestHandler_aebbdf12429f04728ce841d8f7fa462d3}
+
+\item 
+\hypertarget{classpython_1_1streamserver_1_1server_1_1rtspHandler_1_1RTSPRequestHandler_afb21e7af61aeae2f18971405b838aa05}{
+{\bfseries source}}
+\label{classpython_1_1streamserver_1_1server_1_1rtspHandler_1_1RTSPRequestHandler_afb21e7af61aeae2f18971405b838aa05}
+
+\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classpython_1_1streamserver_1_1server_1_1rtspHandler_1_1RTSPRequestHandler_ac8627b1dee60f625fe3cbf288775de9c}{
+string {\bfseries replyOK} = \char`\"{}RTSP/1.0 200 OK\char`\"{}}
+\label{classpython_1_1streamserver_1_1server_1_1rtspHandler_1_1RTSPRequestHandler_ac8627b1dee60f625fe3cbf288775de9c}
+
+\item 
+\hypertarget{classpython_1_1streamserver_1_1server_1_1rtspHandler_1_1RTSPRequestHandler_a695b57b1f4112027397ff306cf99dbef}{
+string {\bfseries replyNotFound} = \char`\"{}RTSP/1.0 404 Not Found\char`\"{}}
+\label{classpython_1_1streamserver_1_1server_1_1rtspHandler_1_1RTSPRequestHandler_a695b57b1f4112027397ff306cf99dbef}
+
+\item 
+\hypertarget{classpython_1_1streamserver_1_1server_1_1rtspHandler_1_1RTSPRequestHandler_a6915ddd8be3f359414edf400701ee38e}{
+string {\bfseries serverInfo} = \char`\"{}Server: python rtsp; Platform/Linux; Release/GM;state/beta;\char`\"{}}
+\label{classpython_1_1streamserver_1_1server_1_1rtspHandler_1_1RTSPRequestHandler_a6915ddd8be3f359414edf400701ee38e}
+
+\item 
+\hypertarget{classpython_1_1streamserver_1_1server_1_1rtspHandler_1_1RTSPRequestHandler_abb9a9e503dbabe873ea0eab9a1dc6af1}{
+tuple {\bfseries date} = datetime.datetime.utcnow()}
+\label{classpython_1_1streamserver_1_1server_1_1rtspHandler_1_1RTSPRequestHandler_abb9a9e503dbabe873ea0eab9a1dc6af1}
+
+\item 
+list {\bfseries SDP}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\begin{DoxyVerb}handle  rtsp request for each rtsp protocol\end{DoxyVerb}
+ 
+
+\subsection{Member Data Documentation}
+\hypertarget{classpython_1_1streamserver_1_1server_1_1rtspHandler_1_1RTSPRequestHandler_aa5ec1068368c201a4b13e20bb1dd50f2}{
+\index{python::streamserver::server::rtspHandler::RTSPRequestHandler@{python::streamserver::server::rtspHandler::RTSPRequestHandler}!SDP@{SDP}}
+\index{SDP@{SDP}!python::streamserver::server::rtspHandler::RTSPRequestHandler@{python::streamserver::server::rtspHandler::RTSPRequestHandler}}
+\subsubsection[{SDP}]{\setlength{\rightskip}{0pt plus 5cm}list python::streamserver::server::rtspHandler::RTSPRequestHandler::SDP\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classpython_1_1streamserver_1_1server_1_1rtspHandler_1_1RTSPRequestHandler_aa5ec1068368c201a4b13e20bb1dd50f2}
+{\bfseries Initial value:}
+\begin{DoxyCode}
+["v=0", "o=-1 1 IN IP4 127.0.0.1",
+                "s=VStream Live", "t=0 0",
+                "i=ICL Streaming Media",
+                "c=IN IP4 0.0.0.0"]
+\end{DoxyCode}
+
+
+The documentation for this class was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+/home/yy/programme/python/streamserver/server/\hyperlink{rtspHandler_8py}{rtspHandler.py}\end{DoxyCompactItemize}

@@ -1,0 +1,44 @@
+2014-06-03 20:47:57+0800 [-] Log opened.
+2014-06-03 20:47:57+0800 [-] --> parser_test.NaluParserTestCase.test_genProfileLevelId <--
+2014-06-03 20:47:57+0800 [-] --> parser_test.NaluParserTestCase.test_transAscii <--
+2014-06-03 20:47:57+0800 [-] --> liveStreamServer_test.LiveProtocolTestCase.test_lineReveived <--
+2014-06-03 20:47:57+0800 [-] receive an empty nalu
+2014-06-03 20:47:57+0800 [-] live source connection lost because Connection was closed cleanly: Bye..
+2014-06-03 20:47:57+0800 [-] --> liveStreamServer_test.LiveProtocolTestCase.test_sourceName <--
+2014-06-03 20:47:57+0800 [-] live source connection lost because Connection was closed cleanly: Bye..
+2014-06-03 20:47:57+0800 [-] --> liveStreamServer_test.LiveServerTestCase.test_connection <--
+2014-06-03 20:47:57+0800 [-] live source connection lost because Connection was closed cleanly: Bye..
+2014-06-03 20:47:57+0800 [-] live source connection lost because Connection was closed cleanly: Bye..
+2014-06-03 20:47:57+0800 [-] --> rtspServer_test.RTSPServerTestCase.test_DESCRIBE_fail <--
+2014-06-03 20:47:57+0800 [-] 'the requested source notExist.264 does not exist '
+2014-06-03 20:47:57+0800 [-] --> rtspServer_test.RTSPServerTestCase.test_DESCRIBE_success <--
+2014-06-03 20:47:57+0800 [-] find the live source stream.264 for the rtsp client
+2014-06-03 20:47:57+0800 [-] --> rtspServer_test.RTSPServerTestCase.test_OPTIONS <--
+2014-06-03 20:47:57+0800 [-] --> rtspServer_test.RTSPServerTestCase.test_PLAY <--
+2014-06-03 20:47:57+0800 [-] --> rtspServer_test.RTSPServerTestCase.test_TEARDOWN <--
+2014-06-03 20:47:57+0800 [-] --> rtspServer_test.RTSPServerTestCase.test_tcpSETUP <--
+2014-06-03 20:47:57+0800 [-] --> rtspServer_test.RTSPServerTestCase.test_udpSETUP <--
+2014-06-03 20:47:57+0800 [-] rtpClient.RTPClientDatagramProtocol starting on 6996
+2014-06-03 20:47:57+0800 [-] Starting protocol <rtpClient.RTPClientDatagramProtocol instance at 0x9c9adac>
+2014-06-03 20:47:57+0800 [-] (Port 6996 Closed)
+2014-06-03 20:47:57+0800 [-] Stopping protocol <rtpClient.RTPClientDatagramProtocol instance at 0x9c9adac>
+2014-06-03 20:47:57+0800 [-] --> source_test.FileSourceTestCase.test_extractNalu <--
+2014-06-03 20:47:57+0800 [-] --> source_test.FileSourceTestCase.test_genSDP <--
+2014-06-03 20:47:57+0800 [-] --> source_test.FileSourceTestCase.test_openFile <--
+2014-06-03 20:47:57+0800 [-] --> source_test.LiveSourceTestCase.test_packFrames <--
+2014-06-03 20:47:57+0800 [-] pack frame paused
+2014-06-03 20:47:57+0800 [-] live source connection lost because Connection was closed cleanly: Bye..
+2014-06-03 20:47:57+0800 [-] --> source_test.LiveSourceTestCase.test_parseNalu <--
+2014-06-03 20:47:57+0800 [-] live source connection lost because Connection was closed cleanly: Bye..
+2014-06-03 20:47:57+0800 [-] --> source_test.LiveSourceTestCase.test_sendLoop <--
+2014-06-03 20:47:57+0800 [-] live source connection lost because Connection was closed cleanly: Bye..
+2014-06-03 20:47:57+0800 [-] --> rtpPacker_test.RTPPackerHelperTestCase.test_genPayloadType <--
+2014-06-03 20:47:57+0800 [-] --> rtpPacker_test.RTPPackerHelperTestCase.test_num2Ascii <--
+2014-06-03 20:47:57+0800 [-] --> rtpPacker_test.RTPPackerHelperTestCase.test_transSeqNum <--
+2014-06-03 20:47:57+0800 [-] --> rtpPacker_test.RTPPackerHelperTestCase.test_transTimeStamp <--
+2014-06-03 20:47:57+0800 [-] --> rtpPacker_test.SingleFramePackerTestCase.test_packNalu <--
+2014-06-03 20:47:57+0800 [-] --> rtpPacker_test.SlicedFramePackerTestCase.test_genFuHead <--
+2014-06-03 20:47:57+0800 [-] --> rtpPacker_test.SlicedFramePackerTestCase.test_genFuIndicator <--
+2014-06-03 20:47:57+0800 [-] --> rtpPacker_test.SlicedFramePackerTestCase.test_packNalu <--
+2014-06-03 20:47:57+0800 [-] --> fileStreamServer_test.FileServerTestCase.test_findSource <--
+2014-06-03 20:47:57+0800 [-] find the file source stream.264 for the rtsp client
